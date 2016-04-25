@@ -1,0 +1,14 @@
+.DS_Store
+logs
+*.log
+npm-debug.log*
+pids
+*.pid
+*.seed
+
+node_modules
+coverage
+.nyc_output
+.npm
+.node_repl_history
+.idea
