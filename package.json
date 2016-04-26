@@ -1,19 +1,20 @@
 {
   "name": "with-callback",
-  "version": "1.0.0",
   "description": "A small helper function to bridge the gap when returning a promise from a function that takes a callback",
   "main": "index.js",
   "scripts": {
     "test": "ava",
-    "test-cov": "nyc ava --reporter=text --reporter=html"
+    "test-cov": "nyc ava --reporter=text --reporter=html",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
     "ava": "^0.14.0",
-    "nyc": "^6.4.0"
+    "nyc": "^6.4.0",
+    "semantic-release": "^4.3.5"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dbrockman/with-callback.git"
+    "url": "https://github.com/dbrockman/with-callback.git"
   },
   "author": "David Brockman Smoliansky",
   "license": "MIT",
