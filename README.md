@@ -3,7 +3,8 @@
 A small helper function to bridge the gap when returning a promise from a function that takes a callback
 
 
-Note that this module will not introduce any custom Promise implementation. It will use the global `Promise`. It is
+Note that this module will not introduce any custom Promise implementation.
+It will use the global `Promise` (requires node >= v4).
 
 
 ```js
@@ -11,7 +12,8 @@ import withCallback from 'with-callback';
 // or const withCallback = require('with-callback');
 
 
-// withCallback returns a promise and invokes the function with a callback used to fulfill the promise
+// withCallback returns a promise and invokes the function with a callback
+// used to fulfill the promise
 function readFile(name) {
   return withCallback(callback => fs.readFile(name, callback));
 }
@@ -23,7 +25,8 @@ function readFile(name) {
 }
 
 
-// A second function can be passed to withCallback to map all arguments passed to the callback to a single value used to resolve the promise.
+// A second function can be passed to withCallback to map all arguments
+// passed to the callback to a single value used to resolve the promise.
 function example(callback) {
   callback(null, 'a', 'b');
 }
