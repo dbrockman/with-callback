@@ -1,6 +1,6 @@
 {
   "name": "with-callback",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A small helper function to bridge the gap when returning a promise from a function that takes a callback",
   "main": "index.js",
   "scripts": {
