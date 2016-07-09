@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "ava": "^0.15.0",
-    "nyc": "^6.4.0",
+    "nyc": "^7.0.0",
     "semantic-release": "^4.3.5"
   },
   "engines": {
