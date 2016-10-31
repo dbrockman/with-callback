@@ -8,7 +8,7 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
-    "ava": "^0.15.0",
+    "ava": "^0.16.0",
     "nyc": "^7.0.0",
     "semantic-release": "^4.3.5"
   },
