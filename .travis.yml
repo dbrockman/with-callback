@@ -3,15 +3,9 @@ language: node_js
 node_js:
   - '4'
   - '6'
-cache:
-  directories:
-    - node_modules
+  - '7'
 notifications:
   email: false
-before_install:
-  - npm i -g npm
-before_script:
-  - npm prune
 after_success:
   - 'curl -Lo travis_after_all.py https://git.io/travis_after_all'
   - python travis_after_all.py
