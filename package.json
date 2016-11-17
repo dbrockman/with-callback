@@ -11,7 +11,7 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
-    "jest": "^16.0.2",
+    "jest": "^17.0.3",
     "semantic-release": "^4.3.5"
   },
   "engines": {
