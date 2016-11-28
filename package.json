@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "jest": "^17.0.3",
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^6.3.2"
   },
   "engines": {
     "node": ">=4"
