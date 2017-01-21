@@ -1,5 +1,7 @@
 # with-callback
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dbrockman/with-callback.svg)](https://greenkeeper.io/)
+
 A small helper function to bridge the gap when returning a promise from a function that takes a callback
 
 
